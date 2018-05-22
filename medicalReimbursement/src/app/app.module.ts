@@ -18,8 +18,6 @@ import { ModalModule } from "ng2-modal";
 import { routes } from './app.router';
 import { MainDashboardService } from './shared/services/main-dashboard/main-dashboard.service';
 import { UserAdminService } from './shared/services/userAdmin/user-admin.service';
-
-;
 import { UserLoginComponent } from './pages/user/user-login/user-login.component';
 import { LayoutComponent } from './layout/layout/layout.component';
 
@@ -60,7 +58,6 @@ import { PasswordChangeComponent } from './pages/user/password-change/password-c
     
   ],
   providers: [
-    QuotationService,
     AuthenticationService,
     AuthGuard,
     MainDashboardService,
